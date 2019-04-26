@@ -38,7 +38,7 @@
 					<p style="color:red;">
 						Not yet a member? <a href="register.php">Sign up</a>
 					</p>
-					<div style="text-align:center" class="popup" onmouseover="myFunction()" onmouseout="myFunction()"><i class="fa fa-mobile-phone" style="font-size:24px ; color:white"></i> &nbsp<a href="NCC@MNNIT.apk">Android app</a>
+					<div style="text-align:center" class="popup" onmouseover="myFunction()" onmouseout="myFunction()"><i class="fa fa-mobile-phone" style="font-size:24px ; color:white"></i> &nbsp<a href="CSED@MNNIT.apk">Android app</a>
 					  <span style="text-align:center" class="popuptext" id="myPopup">Download this for your mobile</span>
 					</div>
 			</form>
