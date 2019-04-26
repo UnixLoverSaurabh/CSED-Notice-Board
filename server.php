@@ -25,6 +25,7 @@
 		
 		// form validation: ensure that the form is correctly filled
 		if (empty($username)) { array_push($errors, "Username is required"); }
+		if (strlen($username) > 15) { array_push($errors, "Username should be max 15 char"); }
 		if (empty($email)) { array_push($errors, "Email is required"); }
 		if (empty($password_1)) { array_push($errors, "Password is required"); }
 		if (mysqli_num_rows($results) > 0) {
